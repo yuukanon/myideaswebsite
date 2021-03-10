@@ -1,5 +1,7 @@
 import React from 'react';
-import hammock1 from './1Hammock Chair.jpg'
+import hammock1 from './1Hammock Chair.jpg';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
 
 const Products = () => {
   return (
@@ -15,7 +17,7 @@ const Products = () => {
         <p><b>[DECOR]</b> Perfect for indoor and outdoor use. The color beige is a timeless and practical color that matches any modern decor style.</p>
         <p><b>[HAPPINESS GUARANTEE]</b> Our #1 priority is your happiness. If you are not happy with our product for any reason, we will resolve it. Refund it. Send you a new hammock chair. No questions are asked. Just reach out to us at any time. We are here for you.</p>
         <div></div>
-        <button><a href="https://www.amazon.com/MY-IDEAS-Hammock-Chair-Hardware/dp/B08MQCJC15/" target="_blank">Buy on Amazon</a></button>
+        <button><a href="https://www.amazon.com/MY-IDEAS-Hammock-Chair-Hardware/dp/B08MQCJC15/" target="_blank"><FontAwesomeIcon icon={["fab", "amazon"]} size="lg"/> Buy on Amazon</a></button>
         
       </div>
     
